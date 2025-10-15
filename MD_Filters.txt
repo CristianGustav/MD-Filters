@@ -2,18 +2,3 @@
 point.md##.mobile.mobileInArticle.fxojvr.ayl0pa-0
 point.md##.fhvTO.sc-1j2vpvc-0
 point.md##.iTconn.y8gvru-0
-
-! --- point.md Eskimi ad cleanup for Samsung Internet ---
-! Убираем основные рекламные контейнеры
-point.md##.ayl0pa-0
-point.md##.fxojvr
-point.md##.desktopInfinite
-point.md##.desktop
-point.md##.mobileInArticle
-
-! Убираем конкретные слоты Eskimi
-point.md##div[id^="eskimi-slot-"]
-point.md##div[id^="eskimiUniqueDomId-"]
-
-! Пробуем убрать простые пустые контейнеры
-point.md##div:empty
