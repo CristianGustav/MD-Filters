@@ -3,3 +3,16 @@ point.md##.mobile.mobileInArticle.fxojvr.ayl0pa-0
 point.md##.fhvTO.sc-1j2vpvc-0
 point.md##.iTconn.y8gvru-0
 
+! --- Point.md Eskimi banner cleanup (remove empty ad containers) ---
+
+! Скрыть верхний контейнер с data-banner-name, если внутри есть Eskimi слоты
+point.md##div[data-banner-name="Main Page First Small Banner"]:has(div[id^="eskimi-slot-"])
+point.md##div[data-banner-name="Main Page First Small Banner"]:has(div[id^="eskimiUniqueDomId-"])
+
+! Скрыть средний контейнер с классами ayI0pa-0 fxojvr desktopInfinite desktop, если внутри есть Eskimi слоты
+point.md##div.ayl0pa-0.fxojvr.desktopInfinite.desktop:has(div[id^="eskimi-slot-"])
+point.md##div.ayl0pa-0.fxojvr.desktopInfinite.desktop:has(div[id^="eskimiUniqueDomId-"])
+
+! Скрыть сами рекламные слоты
+point.md##div[id^="eskimiUniqueDomId-"]
+point.md##div[id^="eskimi-slot-"]
