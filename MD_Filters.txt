@@ -10,3 +10,25 @@ point.md##.mobile.mobileInArticle
 point.md##.fxojvr
 point.md##.ayl0pa-0
 point.md##.y8gvru-0
+
+! --- Smart cleanup for point.md (cosmetic only, safe version) ---
+
+! Скрывает мобильные рекламные контейнеры и их родительские div'ы
+point.md##.mobile.mobileInArticle.fxojvr.ayl0pa-0
+point.md##.iTconn.y8gvru-0
+point.md##.mobile.mobileInArticle
+point.md##div:has(.mobile.mobileInArticle.fxojvr.ayl0pa-0):upward(1)
+point.md##div:has(.iTconn.y8gvru-0):upward(1)
+
+! Скрывает пустые или полупустые блоки рекламы с фиксированной высотой
+point.md##div:matches-css(height: 50px)
+point.md##div:matches-css(min-height: 50px)
+point.md##div:matches-css(height: 90px)
+point.md##div:matches-css(min-height: 90px)
+point.md##div:matches-css(height: 250px)
+point.md##div:matches-css(min-height: 250px)
+
+! Скрывает пустые контейнеры без содержимого
+point.md##div:has(:empty):matches-css(display: block)
+point.md##div:has(:empty):matches-css(height: 100px)
+point.md##div:has(:empty):matches-css(min-height: 100px)
