@@ -3,15 +3,10 @@ point.md##.mobile.mobileInArticle.fxojvr.ayl0pa-0
 point.md##.fhvTO.sc-1j2vpvc-0
 point.md##.iTconn.y8gvru-0
 
-
-! ================================
-! SITE-SPECIFIC FIXES
-! Point.md — removes blank spaces and residual mobile ad placeholders
-! ================================
-
-! --- Safe cosmetic filters for point.md ---
-
+! --- Final safe rules for point.md (no network blocking) ---
+point.md##.mobile.mobileInArticle.fxojvr.ayl0pa-0
+point.md##.iTconn.y8gvru-0
 point.md##.mobile.mobileInArticle
 point.md##.fxojvr
 point.md##.ayl0pa-0
-point.md##.mobileInArticle:upward(1)
+point.md##.y8gvru-0
