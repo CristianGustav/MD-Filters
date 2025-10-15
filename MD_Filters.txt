@@ -28,5 +28,17 @@ point.md##.mobile.mobileInArticle:remove()
 
 ! Если контейнеры остались пустыми внутри статей — убрать и родителя
 point.md##article div:has(.fxojvr):upward(1)
+
+! --- Remove empty ad placeholders ---
+point.md##div:has(> [class*="fxojvr"])
+point.md##div:has(> [class*="ayl0pa-0"])
+point.md##div:has(> [class*="y8gvru-0"])
+point.md##div:matches-css(height: 0px)
+point.md##div:matches-css(min-height: 0px)
+point.md##div:matches-css(margin-bottom: 0px)
+point.md##div:has-text(/^$/)
+point.md##.mobile.mobileInArticle:upward(1)
+point.md##.mobile.mobileInArticle:empty
+point.md##div:empty:upward(1)
 point.md##article div:has(.ayl0pa-0):upward(1)
 point.md##article div:has(.mobile.mobileInArticle):upward(1)
