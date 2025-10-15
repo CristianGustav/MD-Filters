@@ -3,25 +3,17 @@ point.md##.mobile.mobileInArticle.fxojvr.ayl0pa-0
 point.md##.fhvTO.sc-1j2vpvc-0
 point.md##.iTconn.y8gvru-0
 
-! --- Universal Eskimi banner cleanup for point.md ---
-! Убирает все пустые или загруженные баннеры Eskimi без риска сломать сайт
+! --- point.md Eskimi ad cleanup for Samsung Internet ---
+! Убираем основные рекламные контейнеры
+point.md##.ayl0pa-0
+point.md##.fxojvr
+point.md##.desktopInfinite
+point.md##.desktop
+point.md##.mobileInArticle
 
-! Скрываем верхние контейнеры с data-banner-name или data-banner-position, если внутри есть слоты Eskimi
-point.md##div[data-banner-name]:has(div[id^="eskimi-slot-"])
-point.md##div[data-banner-name]:has(div[id^="eskimiUniqueDomId-"])
-point.md##div[data-banner-position]:has(div[id^="eskimi-slot-"])
-point.md##div[data-banner-position]:has(div[id^="eskimiUniqueDomId-"])
-
-! Скрываем средние контейнеры с классами ayI0pa-0 fxojvr desktopInfinite desktop
-point.md##div.ayl0pa-0.fxojvr.desktopInfinite.desktop:has(div[id^="eskimi-slot-"])
-point.md##div.ayl0pa-0.fxojvr.desktopInfinite.desktop:has(div[id^="eskimiUniqueDomId-"])
-
-! Скрываем сами рекламные слоты Eskimi
-point.md##div[id^="eskimiUniqueDomId-"]
+! Убираем конкретные слоты Eskimi
 point.md##div[id^="eskimi-slot-"]
+point.md##div[id^="eskimiUniqueDomId-"]
 
-! Убираем любые контейнеры, которые остались пустыми после удаления рекламы
-point.md##div:has(> div[id^="eskimi-slot-"]):upward(2)
-point.md##div:has(> div[id^="eskimiUniqueDomId-"]):upward(2)
-point.md##div:has(:empty):matches-css(min-height: 1px)
-point.md##div:has(:empty):matches-css(height: 1px)
+! Пробуем убрать простые пустые контейнеры
+point.md##div:empty
