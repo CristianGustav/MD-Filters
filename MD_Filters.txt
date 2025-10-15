@@ -2,26 +2,3 @@
 point.md##.mobile.mobileInArticle.fxojvr.ayl0pa-0
 point.md##.fhvTO.sc-1j2vpvc-0
 point.md##.iTconn.y8gvru-0
-
-point.md##div[data-banner-name="Main Page First Small Banner"]
-point.md##div.ayl0pa-0.fxojvr.desktopInfinite.desktop
-point.md##div#eskimiUniqueDomId-256e735a-33df-4208-8020-698ce6c7deae
-point.md##div#eskimi-slot-yhpe7hhj
-
-point.md##div[data-banner-name="Main Page First Small Banner"] { display: none !important; }
-
-point.md##div[data-banner-position="Before Infinite News List"]
-
-point.md##div.banner-label
-
-point.md#?#div[id^="eskimiUniqueDomId"]
-
-! Фильтры для point.md для скрытия рекламы и пустых мест
-point.md##div[data-banner-name="Main Page First Small Banner"]
-point.md##div[data-banner-position="Before Infinite News List"]
-point.md##div.ayl0pa-0.fxojvr.desktopInfinite.desktop
-point.md##div[id^="eskimiUniqueDomId"]
-point.md##div[id^="eskimi-slot-"]
-point.md##div:contains(BANER)
-
-point.md##div[data-banner-name="Main Page First Small Banner"] { display: none !important; }
