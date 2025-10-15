@@ -3,53 +3,12 @@ point.md##.mobile.mobileInArticle.fxojvr.ayl0pa-0
 point.md##.fhvTO.sc-1j2vpvc-0
 point.md##.iTconn.y8gvru-0
 
-! ================================
-! UNIVERSAL COSMETIC FILTERS
-! Remove empty ad containers and residual ad spaces on most sites
-! ================================
-
-##.ad
-##.ads
-##.adsbox
-##.ad-box
-##.ad_banner
-##.ad-banner
-##.ad-container
-##.ad-slot
-##.advert
-##.advertisement
-##.banner
-##.banners
-##.sponsored
-##.sponsor
-##.promo
-##.promobox
-##[id*="ad"]
-##[id^="ad_"]
-##[id$="_ad"]
-##[class*="ad "]
-##[class*="ad-"]
-##[class*="ads"]
-##[class*="banner"]
-##[class*="sponsor"]
-##[data-ad]
-##[data-ads]
-##iframe[src*="ad"]
-##iframe[src*="/ads/"]
-##div:has(iframe[src*="ad"])
-##div:has(iframe[src*="/ads/"])
-##div:has(.ads)
-##div:has(.banner)
-##section:has(.ad)
-##aside:has(.sponsored)
 
 ! ================================
 ! SITE-SPECIFIC FIXES
 ! Point.md — removes blank spaces and residual mobile ad placeholders
 ! ================================
 
-point.md##.mobile.mobileInArticle.fxojvr.ayl0pa-0
-point.md##.iTconn.y8gvru-0
 point.md##.mobile.mobileInArticle
 point.md##div:has(.ad)
 point.md##div:has([id*="ad"])
