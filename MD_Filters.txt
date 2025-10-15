@@ -43,22 +43,6 @@ point.md##.iTconn.y8gvru-0
 ##section:has(.ad)
 ##aside:has(.sponsored)
 
-! --- Optional cleanup for containers that often leave whitespace ---
-##.empty-ad
-##.hidden-ad
-##.ad-space
-##.advertising
-##.google-auto-placed
-##.gpt-ad
-##.gpt-slot
-##.yandex_rtb
-##.yandex-ad
-
-! --- Prevent large white blocks under articles ---
-##div:has(.ad-placeholder)
-##div:has(.ad-empty)
-##div:has([data-ad-placeholder])
-
 ! ================================
 ! SITE-SPECIFIC FIXES
 ! Point.md — removes blank spaces and residual mobile ad placeholders
