@@ -8,3 +8,9 @@
 ##.d-md-none.bottom-banner
 ##.iTconn.y8gvru-0
 ##.mobile.mobileInArticle.iMgVoN.ayl0pa-0
+##div.styles_banner__Q51ZJ.styles_mobile__eJFMX.styles_adlist__eskimi__51uU0:nth-of-type(1) 
+##div.styles_banner__Q51ZJ.styles_mobile__eJFMX.styles_adlist__eskimi__51uU0:nth-of-type(2)
+##div.styles_banner__Q51ZJ.styles_mobile__eJFMX.styles_adlist__eskimi__51uU0:nth-of-type(3)
+##.styles_main__horizontal__banner__32hDX
+##.styles_ad__banner__aarD6
+##.AdMobile_large__ad__hV7Ff.AdMobile_item__m_7w6 > .AdMobile_container__p1jhf
