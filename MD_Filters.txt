@@ -14,4 +14,4 @@
 ##.styles_main__horizontal__banner__32hDX
 ##.styles_ad__banner__aarD6
 ##.AdMobile_large__ad__hV7Ff.AdMobile_item__m_7w6 > .AdMobile_container__p1jhf
-###top-bar-menu
+##top-bar-menu
