@@ -1,2 +1,1 @@
-##.wVPYR.MobileBottomBar__ButtonsWrapper-sc-c835fcfc-2
-##.iLkhpc.AppDownload__Wrapper-sc-36542627-0
+##.bottom-bar.fRQikL.MobileBottomBar__Wrapper-sc-c835fcfc-0
