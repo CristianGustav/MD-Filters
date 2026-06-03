@@ -1,1 +1,4 @@
 ##.bottom-bar.fRQikL.MobileBottomBar__Wrapper-sc-c835fcfc-0
+aliexpress.ru##.PseudoSmartBanner_NewBanner__container__1bwen
+aliexpress.ru##.PseudoSmartBanner_NewBanner__wrapper__1bwen
+yandex.ru##.style_placeholder__SSLch.Placeholder_mediaStyle__5qBPM.placeholder
