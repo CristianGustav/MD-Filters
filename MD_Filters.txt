@@ -2,3 +2,10 @@
 aliexpress.ru##.PseudoSmartBanner_NewBanner__container__1bwen
 aliexpress.ru##.PseudoSmartBanner_NewBanner__wrapper__1bwen
 yandex.ru##.style_placeholder__SSLch.Placeholder_mediaStyle__5qBPM.placeholder
+yandex.ru##div[id^="adfox_"]
+yandex.ru##div[data-block="ads"]
+yandex.ru##div[class*="ad-wrapper"]
+yandex.ru##[class*="adv-block"]
+yandex.ru##[class*="banner--weather"]
+yandex.ru##div[class*="NativeAd"]
+yandex.ru##div[data-testid*="advert"]
