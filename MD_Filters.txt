@@ -13,7 +13,3 @@ yandex.ru##[class*="adv-block"]
 yandex.ru##[class*="banner--weather"]
 yandex.ru##div[class*="NativeAd"]
 yandex.ru##div[data-testid*="advert"]
-apkmirror.com##.apkm-adblock-message
-apkmirror.com##.apkm-rate-limit-message  
-apkmirror.com##div[class*="adblock"]
-apkmirror.com#%#//scriptlet("abort-on-property-read", "adblock")
