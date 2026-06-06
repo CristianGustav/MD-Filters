@@ -13,7 +13,3 @@ yandex.ru##[class*="adv-block"]
 yandex.ru##[class*="banner--weather"]
 yandex.ru##div[class*="NativeAd"]
 yandex.ru##div[data-testid*="advert"]
-||doubleclick.net^
-||googlesyndication.com^
-||googleadservices.com^
-||adservice.google.com^
