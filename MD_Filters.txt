@@ -13,5 +13,7 @@ yandex.ru##[class*="adv-block"]
 yandex.ru##[class*="banner--weather"]
 yandex.ru##div[class*="NativeAd"]
 yandex.ru##div[data-testid*="advert"]
-apkmirror.com##.gooWidget
-apkmirror.com##.google-ad-leaderboard
+||doubleclick.net^
+||googlesyndication.com^
+||googleadservices.com^
+||adservice.google.com^
