@@ -13,3 +13,16 @@ yandex.ru##[class*="adv-block"]
 yandex.ru##[class*="banner--weather"]
 yandex.ru##div[class*="NativeAd"]
 yandex.ru##div[data-testid*="advert"]
+apkmirror.com#@#.gooWidget
+apkmirror.com#@#.google-ad-leaderboard
+apkmirror.com##.gooWidget:style(opacity: 0 !important; visibility: collapse !important;)
+apkmirror.com##.google-ad-leaderboard:style(opacity: 0 !important;)
+apkmirror.com##[href^="https://bstk.me/"]
+apkmirror.com##div.appRow[style]
+apkmirror.com##.advertisement-text
+apkmirror.com##.downloadCountdown
+apkmirror.com##.OUTBRAIN
+apkmirror.com##[id^="adtester-container"]:style(position: absolute !important;)
+apkmirror.com##^script:has-text(document.createTextNode)
+!#if !cap_html_filtering
+apkmirror.com##+js(rmnt, script, document.createTextNode)
