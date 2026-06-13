@@ -17,3 +17,4 @@ yandex.ru##div[data-testid*="advert"]
 4pda.to##.menu-brands
 4pda.to##.menu-main-mobile > li.menu-main-item:nth-of-type(6) > [href*="https://4pda.to/huawei/"]
 4pda.to##.second-menu
+www.temu.com##.downloadUI-1EdpI
