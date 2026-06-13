@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-06-13T00:00:00Z",
+  "filters": [
+    {
+      "id": "filter-1",
+      "name": "MD Filters",
+      "description": "Romanian/Moldovan ad blocking filter list",
+      "category": "ads",
+      "format": "adblock",
+      "version": "1.0.0",
+      "lastUpdated": "2026-06-13T00:00:00Z",
+      "size": 0,
+      "downloadUrl": "https://raw.githubusercontent.com/CristianGustav/MD-Filters/refs/heads/main/MD_Filters.txt",
+      "maintainer": "CristianGustav",
+      "license": "MIT",
+      "tags": ["ads", "tracking"],
+      "compatibleClients": ["adclear"],
+      "recommended": true,
+      "homepage": "https://github.com/CristianGustav/MD-Filters",
+      "stats": null
+    },
+    {
+      "id": "filter-2",
+      "name": "BitBlock",
+      "description": "BitBlock filter list",
+      "category": "ads",
+      "format": "adblock",
+      "version": "1.0.0",
+      "lastUpdated": "2026-06-13T00:00:00Z",
+      "size": 0,
+      "downloadUrl": "https://easylist-downloads.adblockplus.org/bitblock.txt",
+      "maintainer": "AdblockPlus",
+      "license": "GPL3",
+      "tags": ["ads", "tracking"],
+      "compatibleClients": ["adclear"],
+      "recommended": true,
+      "homepage": "https://adblockplus.org",
+      "stats": null
+    }
+  ]
+}
