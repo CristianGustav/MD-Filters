@@ -13,8 +13,3 @@ yandex.ru##[class*="adv-block"]
 yandex.ru##[class*="banner--weather"]
 yandex.ru##div[class*="NativeAd"]
 yandex.ru##div[data-testid*="advert"]
-4pda.to###w9p1i7ltNl
-4pda.to##.menu-brands
-4pda.to##.menu-main-mobile > li.menu-main-item:nth-of-type(6) > [href*="https://4pda.to/huawei/"]
-4pda.to##.second-menu
-www.temu.com##.downloadUI-1EdpI
